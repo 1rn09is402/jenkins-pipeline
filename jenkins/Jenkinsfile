@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                    git branch: 'master', url: 'https://github.com/j-repository.git'
+                    git branch: 'master', url: 'https://github.com/1rn09is402/j-repository.git'
                     sh '''
                         #!/bin/bash 
                         pwd 
