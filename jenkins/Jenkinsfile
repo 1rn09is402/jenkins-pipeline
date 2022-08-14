@@ -1,9 +1,9 @@
 pipeline {
-    agent { label 'slave2' }
+    agent { label 'slavej' }
     stages {
         stage('Build') {
             steps {
-                    git branch: 'master', url: 'https://github.com/jenkins-docs/simple-java-maven-app.git'
+                    git branch: 'master', url: 'https://github.com/j-repository.git'
                     sh '''
                         #!/bin/bash 
                         pwd 
